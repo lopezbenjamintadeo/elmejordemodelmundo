@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return {"Esto es una APP hecho con OKE <3"}
+    return {"Worldsys Campeon 1°!"}
 
 
 @app.get("/name/{name}")
